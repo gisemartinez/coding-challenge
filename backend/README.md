@@ -13,7 +13,9 @@ This api is a single-tenant org chart api. You can load an orgchart's nodes and 
 While the query expects a flat structure, using the level attribute you should be able to filter out nodes above the specified level. 
 
 If level = 0 , return all nodes
+
 If level = 1 , return all but the root nodes
+
 If level = n , return all nodes equal to or below level n
 
 **Mutation**

@@ -1,0 +1,27 @@
+input AddNodeInput {
+  title: String!
+  parentId: UUID
+}
+
+type AddNodeResult {
+  orgChart: OrgChart
+}
+
+type OrgChart {
+  nodes: [OrgChartNode!]
+}
+
+type OrgChartNode {
+  id: UUID!
+  title: String!
+  parentId: UUID
+}
+
+type Query {
+  "Returns all org chart nodes"
+  loadOrgChart(level: Int!): OrgChart
+}
+type Mutation {
+  "Adds a node to the org chart"
+  addNode(input: AddNodeInput!): AddNodeResult
+}

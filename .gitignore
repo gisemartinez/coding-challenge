@@ -1,0 +1,60 @@
+*.conf
+*.class
+*.log
+
+
+# Generated docs
+doc
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.cache
+.classpath
+.project
+.settings
+.bloop
+# IntelliJ
+.idea
+.bsp
+
+# Ensime
+.ensime*
+
+# Mac OS X
+.DS_Store
+
+# Sublime Text
+*.sublime-*
+
+# Intellij
+*.iml
+*.ipr
+*.iws
+
+# Emacs
+.projectile
+*#*#
+.#*
+*.*~
+
+# Serverless
+.serverless
+# Dependencies
+node_modules/
+.serverless/*
+.serverless_plugins/*
+yarn.lock
+
+.metals/
+.bloop/
+.ammonite/
+metals.sbt
+.vscode/

@@ -20,7 +20,11 @@ If level = n , return all nodes equal to or below level n
 
 **Mutation**
 
-The api only supports adding new nodes, however the business requires us to **only allow 3 direct children nodes per parent node**.
+The api only supports adding new nodes. 
+
+Requirements: 
+* only allow `n` direct children nodes per parent node, where `n` should be configurable on the app level.
+* Support multiple root nodes (Co-founders and Co-CEOs do exist :) )
 
 When adding new nodes make sure to handle concurrency and either reject concurrent requests or handle them as best as you can. 
 **The org chart structure should never be corrupted**

@@ -38,7 +38,7 @@ When adding new nodes make sure to handle concurrency and either reject concurre
 * (Optional) Test either the api or the application logic with a real db instance 
 
 A postgres instance can be started via the supplied compose file. 
-You can put any table definition you need in the [init script](./resources/init_db.sql)
+You can put any table definition you need in the [init script](./resources/scripts/init_db.sql)
 
 You can use Futures/Cats.IO/ZIO, any http server and testing library. 
 

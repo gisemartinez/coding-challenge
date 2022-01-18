@@ -18,6 +18,7 @@ lazy val root = (project in file("."))
     testFrameworks := Seq(new TestFramework("zio.test.sbt.ZTestFramework"))
   )
   .settings(
+    scalaVersion := "2.13.6",
     Compile / caliban / calibanSources := baseDirectory
       .in(project)
       .value

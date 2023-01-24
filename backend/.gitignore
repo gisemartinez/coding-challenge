@@ -1,0 +1,40 @@
+
+
+*.class
+*.log
+
+# sbt specific
+dist/*
+*/target/*
+/project/target/
+**/target/*/**
+lib_managed/
+project/boot/
+project/plugins/project/
+
+# Bloop specific
+.bsp/
+
+# Exclude local configuration
+project/Local.scala
+
+# Scala-IDE specific
+.scala_dependencies
+.cache
+.classpath
+.project
+.settings
+
+# IntelliJ
+.idea/*
+*.iml
+*.ipr
+*.iws
+
+# Mac OS X
+.DS_Store
+
+# Code
+.vscode
+
+

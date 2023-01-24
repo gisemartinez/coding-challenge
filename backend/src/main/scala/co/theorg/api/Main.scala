@@ -1,17 +1,7 @@
 package co.theorg.api
 
-import cats.effect.{
-  Blocker,
-  ConcurrentEffect,
-  ContextShift,
-  Effect,
-  ExitCode,
-  IO,
-  IOApp,
-  Resource,
-  Timer
-}
-import co.theorg.api.schema.{GraphQL, GraphQLRoutes, SangriaGraphQL}
+import cats.effect.{Blocker, ConcurrentEffect, ContextShift, Effect, ExitCode, IO, IOApp, Resource, Timer}
+import co.theorg.api.schema.{GraphQLRoutes, SangriaGraphQL}
 import com.typesafe.config.ConfigFactory
 import io.chrisdavenport.log4cats.Logger
 import io.chrisdavenport.log4cats.slf4j.Slf4jLogger

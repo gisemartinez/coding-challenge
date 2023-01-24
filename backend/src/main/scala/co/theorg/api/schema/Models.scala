@@ -1,10 +1,9 @@
 package co.theorg.api.schema
 
-import co.theorg.api.{AppContext, Utils}
-import io.circe.{Decoder, Encoder, Json}
-import sangria.marshalling._
-import io.circe.Codec
+import co.theorg.api.AppContext
 import io.circe.generic.semiauto.deriveCodec
+import io.circe.{Codec, Decoder, Encoder, Json}
+import sangria.marshalling._
 import sangria.schema._
 
 import java.util.UUID

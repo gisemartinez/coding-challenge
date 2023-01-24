@@ -2,9 +2,8 @@ package co.theorg.api.schema
 
 import cats.effect._
 import co.theorg.api.AppContext
-import co.theorg.api.schema.Models.{AddNodeInput, AddNodeResult, OrgChart}
+import co.theorg.api.schema.Models.{AddNodeInput, AddNodeResult}
 import co.theorg.db
-import io.circe._
 import sangria.schema._
 
 object Mutation {

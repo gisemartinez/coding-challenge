@@ -1,4 +1,4 @@
-package co.theorg.api
+package co.theorg.api.schema
 
 import sangria.schema._
 import sangria.validation.ValueCoercionViolation

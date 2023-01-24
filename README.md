@@ -5,9 +5,11 @@ Make sure to use a private github repository to develop your solution and share 
 
 # Implementation notes: 
 
-- Can't change the privacy of a fork, but will delete after meeting
-- Didn't spend much time on analysing concurrency. I envision to talk that out on the assignment debrief. 
+- Can't change the privacy of a fork so I will delete after meeting
+ <img width="852" alt="image" src="https://user-images.githubusercontent.com/1588592/214258207-43742b28-6000-43b0-935c-207359e068d9.png">
+
+- Didn't spend much time on analysing concurrency but I envision to talk that out on the assignment debrief. 
 - Used Sangria and Cats-effect, besides Slick. 
-- Commit history is intentionally made
+- Commit history is intentionally made so review is easier
 - Latest version of this branch has been uploaded to my personal dockerhub, so the app should work with the usual 
 `docker-compose up --build`
